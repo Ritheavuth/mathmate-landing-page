@@ -7,10 +7,10 @@ body {
   height: 100%;
 }
 
-#home,
+#about,
 #courses,
 #contact {
-  padding: 5% 5%;
+  padding: 3% 5%;
 }
 
 /* Header */
@@ -26,10 +26,16 @@ body {
 }
 
 .hero button {
-  margin: 10% 0%;
   color: #fff;
   background-color: #df5900;
 }
+
+/* About Us */
+
+#about p {
+  padding: 0.8% 2%;
+}
+
 
 /* Courses */
 
@@ -37,10 +43,19 @@ body {
   background-color: #fff;
 }
 
+.course-column {
+  padding: 3% 2%;
+}
+
+.course-column .card .btn {
+  background-color: #df5900;
+  color: #fff;
+}
+
 /* Pricing */
 
 #pricing {
-  padding: 7% 5%;
+  padding: 3% 5%;
 }
 
 .pricing-column {
@@ -69,6 +84,16 @@ body {
 #footer p {
   color: #111;
   font-weight: bold;
+}
+
+#footer form {
+  padding: 7% 5%;
+  border-radius: 7%;
+}
+
+#footer form button {
+  background-color: #df5900;
+  color: #fff
 }
 
 .social-icon {
