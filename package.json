@@ -1,0 +1,25 @@
+{
+  "name": "mathmate-landing-page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ritheavuth/mathmate-landing-page.git"
+  },
+  "author": "theavuth, chanpiseth",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ritheavuth/mathmate-landing-page/issues"
+  },
+  "homepage": "https://github.com/Ritheavuth/mathmate-landing-page#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20"
+  }
+}
