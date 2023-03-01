@@ -1,0 +1,72 @@
+body {
+  width: 100%;
+  height: 100%;
+}
+
+#home,
+#courses,
+#contact {
+  padding: 5% 5%;
+}
+
+/* Header */
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.hero {
+  padding: 7% 7%;
+  background-color: #111;
+}
+
+.hero button {
+  margin: 10% 0%;
+  color: #fff;
+  background-color: #df5900;
+}
+
+/* Courses */
+
+#courses {
+  background-color: #fff;
+}
+
+/* Pricing */
+
+#pricing {
+  padding: 7% 5%;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* Footer */
+
+#footer {
+  text-align: center;
+  background-color: #df5900;
+  padding: 7% 15%;
+}
+
+#footer a {
+  text-decoration: none;
+  color: #111;
+  font-size: 1.5rem;
+}
+
+#footer a:hover {
+  text-decoration: none;
+  color: #252625;
+}
+
+#footer p {
+  color: #111;
+  font-weight: bold;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
